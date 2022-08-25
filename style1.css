@@ -1,0 +1,19 @@
+body, html {
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 70px;
+}
+.banner {
+  background: url("https://images8.alphacoders.com/912/912329.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  color: #FFFF;
+}
+
+.image-src {
+  height: 350px;
+}
+
+.image-src img {
+  height: 100%;
+  width: 100%;
+}

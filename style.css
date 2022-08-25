@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+body, html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  height: 100%;
+  font-weight: 700;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  border-color: #198754;
+  opacity: 85%;
+}
+
+.login-form{
+  height: 400px;
+  width: 430px;
+  padding: 0 35px;
+  border-radius: 20px;
+}
+
+.register-form{
+  height: 420px;
+  width: 430px;
+  padding: 0 35px;
+  border-radius: 20px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  border-radius: 20px;
+}
+
+.btn-login {
+  height: 35px;
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+.forgotpassword:hover {
+  color: #198754;
+  text-decoration: none;
+}
